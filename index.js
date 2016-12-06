@@ -10,7 +10,7 @@ function SendBoom (req, res, boom) {
   if (boom.reformat) {
     boom.reformat();
   }
-  sendJson(req, res, {
+  return sendJson(req, res, {
     statusCode: boom.output.statusCode,
     headers: boom.output.headers,
     body: boom.output.payload
