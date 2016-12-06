@@ -1,6 +1,6 @@
 {
   "name": "send-boom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Send boom errors over http",
   "main": "index.js",
   "scripts": {
